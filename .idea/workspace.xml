@@ -2,9 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099659a2-6494-4491-9127-a799325d0ac2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/abstractFactory/AppleComputer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/abstractFactory/AppleDesktop.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/abstractFactory/AppleNotebook.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/abstractFactory/ComputerFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/abstractFactory/DellComputer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/abstractFactory/DellDesktop.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/abstractFactory/DellNotebook.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/abstractFactory/DesktopFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/abstractFactory/NotebookFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/abstractFactory/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/builder/Robot.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/builder/RobotA.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/builder/RobotABuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/builder/RobotB.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/builder/RobotBBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/builder/RobotBuilder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/builder/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/command/Command.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/command/Designer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/command/FunACommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/command/FunBCommand.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/command/ProductManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/command/Programer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/command/ProjectManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/command/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/factoryMethod/GameConsoleFactory.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/factoryMethod/IGameConsole.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/factoryMethod/PlayStation.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/factoryMethod/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/factoryMethod/XBox.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/ioc/Car.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/ioc/Driver.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/ioc/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/ioc/Vehicle.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/mediator/AutoDealer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/mediator/AutoManufacturer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/mediator/Customer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/mediator/InsuranceCompany.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/mediator/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/prototype/Minion.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/prototype/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/proxy/CustomerServiceStaff.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/proxy/Engineer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/proxy/IStaff.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/proxy/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/proxy/dynamicProxy/DynamicProxy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/proxy/dynamicProxy/IMachine.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/proxy/dynamicProxy/MachineA.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/proxy/dynamicProxy/MyInvocationHandler.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/proxy/dynamicProxy/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/singleton/Singleton$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/singleton/Singleton$InnerClass.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/singleton/Singleton.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/singleton/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/strategy/Context.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/strategy/IStrategy.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/strategy/Strategy1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/strategy/Strategy2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/strategy/Test.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/templateMethod/AppleComputer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/templateMethod/Computer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/templateMethod/DellComputer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_patterns/patterns/templateMethod/Test.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,19 +77,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="15" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="15" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -447,12 +495,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512551134478</updated>
-      <workItem from="1512551135866" duration="36369000" />
+      <workItem from="1512551135866" duration="36426000" />
     </task>
+    <task id="LOCAL-00001" summary="no msg">
+      <created>1513069251439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1513069251440</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36369000" />
+    <option name="totallyTimeSpent" value="36426000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="135" y="23" width="1400" height="983" extended-state="0" />
@@ -493,6 +549,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="no msg" />
+    <option name="LAST_COMMIT_MESSAGE" value="no msg" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="5" />
@@ -500,21 +560,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/patterns/builder/RobotB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#104#105#0" expanded="false" />
-            <element signature="e#157#158#0" expanded="false" />
-            <element signature="e#200#201#0" expanded="false" />
-            <element signature="e#252#253#0" expanded="false" />
-            <element signature="e#296#297#0" expanded="false" />
-            <element signature="e#349#350#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/builder/RobotBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -896,18 +941,18 @@
         <state relative-caret-position="317">
           <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
-            <element signature="e#120#121#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="false" />
+            <element signature="e#148#149#0" expanded="false" />
+            <element signature="e#174#175#0" expanded="false" />
+            <element signature="e#253#254#0" expanded="false" />
+            <element signature="e#278#279#0" expanded="false" />
+            <element signature="e#327#328#0" expanded="false" />
+            <element signature="e#354#355#0" expanded="false" />
+            <element signature="e#405#406#0" expanded="false" />
+            <element signature="e#438#439#0" expanded="false" />
+            <element signature="e#466#467#0" expanded="false" />
+            <element signature="e#492#493#0" expanded="false" />
+            <element signature="e#522#523#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -917,18 +962,18 @@
         <state relative-caret-position="507">
           <caret line="42" column="1" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="42" selection-end-column="1" />
           <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#360#361#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#748#749#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="false" />
+            <element signature="e#307#308#0" expanded="false" />
+            <element signature="e#360#361#0" expanded="false" />
+            <element signature="e#399#400#0" expanded="false" />
+            <element signature="e#473#474#0" expanded="false" />
+            <element signature="e#529#530#0" expanded="false" />
+            <element signature="e#582#583#0" expanded="false" />
+            <element signature="e#621#622#0" expanded="false" />
+            <element signature="e#671#672#0" expanded="false" />
+            <element signature="e#711#712#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -938,10 +983,10 @@
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#235#236#0" expanded="false" />
+            <element signature="e#303#304#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -959,16 +1004,16 @@
         <state relative-caret-position="381">
           <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#131#132#0" expanded="false" />
+            <element signature="e#175#176#0" expanded="false" />
+            <element signature="e#212#213#0" expanded="false" />
+            <element signature="e#277#278#0" expanded="false" />
+            <element signature="e#308#309#0" expanded="false" />
+            <element signature="e#367#368#0" expanded="false" />
+            <element signature="e#425#426#0" expanded="false" />
+            <element signature="e#481#482#0" expanded="false" />
+            <element signature="e#521#522#0" expanded="false" />
+            <element signature="e#561#562#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -978,11 +1023,19 @@
         <state relative-caret-position="228">
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
-            <element signature="e#147#148#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="false" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#250#251#0" expanded="false" />
+            <element signature="e#335#336#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
