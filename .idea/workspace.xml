@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099659a2-6494-4491-9127-a799325d0ac2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/state/Context.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/state/GasState.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/state/LiquidState.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/state/SolidState.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/state/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/state/WaterState.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/bridge/ElectronicProductFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/bridge/Factory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/bridge/IElectronicProduct.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/bridge/Radio.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/bridge/Television.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/bridge/Test.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,7 +19,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="IElectronicProduct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/bridge/IElectronicProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ElectronicProductFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/bridge/ElectronicProductFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Factory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/patterns/bridge/Factory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#245#246#0" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,13 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/patterns/mediator/AutoDealer.java" />
-        <option value="$PROJECT_DIR$/src/patterns/mediator/Test.java" />
-        <option value="$PROJECT_DIR$/src/patterns/mediator/AutoManufacturer.java" />
-        <option value="$PROJECT_DIR$/src/patterns/mediator/Customer.java" />
-        <option value="$PROJECT_DIR$/src/patterns/mediator/InsuranceCompany.java" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/patterns/chainOfResponsibility/Request.java" />
         <option value="$PROJECT_DIR$/src/patterns/chainOfResponsibility/Director.java" />
         <option value="$PROJECT_DIR$/src/patterns/chainOfResponsibility/GeneralManager.java" />
@@ -98,6 +132,13 @@
         <option value="$PROJECT_DIR$/src/patterns/state/GasState.java" />
         <option value="$PROJECT_DIR$/src/patterns/state/Context.java" />
         <option value="$PROJECT_DIR$/src/patterns/state/Test.java" />
+        <option value="$PROJECT_DIR$/src/patterns/bridge/ElectronicProductsFactory.java" />
+        <option value="$PROJECT_DIR$/src/patterns/bridge/IElectronicProduct.java" />
+        <option value="$PROJECT_DIR$/src/patterns/bridge/ElectronicProductFactory.java" />
+        <option value="$PROJECT_DIR$/src/patterns/bridge/Radio.java" />
+        <option value="$PROJECT_DIR$/src/patterns/bridge/Television.java" />
+        <option value="$PROJECT_DIR$/src/patterns/bridge/Test.java" />
+        <option value="$PROJECT_DIR$/src/patterns/bridge/Factory.java" />
       </list>
     </option>
   </component>
@@ -154,7 +195,7 @@
               <item name="java_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="state" type="462c0819:PsiDirectoryNode" />
+              <item name="bridge" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -186,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.state">
+  <component name="RunManager" selected="Application.bridge">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -225,6 +266,20 @@
     <configuration name="adapter" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="patterns.adapter.Test" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java_patterns" />
+      <envs />
+    </configuration>
+    <configuration name="bridge" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="patterns.bridge.Test" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -520,7 +575,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="18">
+    <list size="19">
       <item index="0" class="java.lang.String" itemvalue="Application.command" />
       <item index="1" class="java.lang.String" itemvalue="Application.prototype" />
       <item index="2" class="java.lang.String" itemvalue="Application.mediator" />
@@ -531,14 +586,15 @@
       <item index="7" class="java.lang.String" itemvalue="Application.observer" />
       <item index="8" class="java.lang.String" itemvalue="Application.facade" />
       <item index="9" class="java.lang.String" itemvalue="Application.state" />
-      <item index="10" class="java.lang.String" itemvalue="Application.proxy" />
-      <item index="11" class="java.lang.String" itemvalue="Application.builder" />
-      <item index="12" class="java.lang.String" itemvalue="Application.strategy" />
-      <item index="13" class="java.lang.String" itemvalue="Application.dynamicProxy" />
-      <item index="14" class="java.lang.String" itemvalue="Application.singleton" />
-      <item index="15" class="java.lang.String" itemvalue="Application.factoryMethod" />
-      <item index="16" class="java.lang.String" itemvalue="Application.abtractFactory" />
-      <item index="17" class="java.lang.String" itemvalue="Application.templateMethod" />
+      <item index="10" class="java.lang.String" itemvalue="Application.bridge" />
+      <item index="11" class="java.lang.String" itemvalue="Application.proxy" />
+      <item index="12" class="java.lang.String" itemvalue="Application.builder" />
+      <item index="13" class="java.lang.String" itemvalue="Application.strategy" />
+      <item index="14" class="java.lang.String" itemvalue="Application.dynamicProxy" />
+      <item index="15" class="java.lang.String" itemvalue="Application.singleton" />
+      <item index="16" class="java.lang.String" itemvalue="Application.factoryMethod" />
+      <item index="17" class="java.lang.String" itemvalue="Application.abtractFactory" />
+      <item index="18" class="java.lang.String" itemvalue="Application.templateMethod" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -557,7 +613,7 @@
       <workItem from="1512551135866" duration="50452000" />
       <workItem from="1513313355194" duration="8119000" />
       <workItem from="1513590490479" duration="2435000" />
-      <workItem from="1513645114272" duration="602000" />
+      <workItem from="1513645114272" duration="2294000" />
     </task>
     <task id="LOCAL-00001" summary="no msg">
       <created>1513069251439</created>
@@ -601,14 +657,22 @@
       <option name="project" value="LOCAL" />
       <updated>1513576252590</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="no msg">
+      <created>1513646388514</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1513646388514</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61608000" />
+    <option name="totallyTimeSpent" value="63300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="136" y="23" width="1400" height="983" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -618,7 +682,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35260117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25549132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -656,20 +720,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/DisplayPortTypeCAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/TypeCFemale.java" />
-    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/Transformer.java" />
-    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/PowerConnector.java" />
-    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/Voltage.java" />
-    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/ElectricCurrent.java" />
-    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/a.java" />
-    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/Power.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/adapter/LaptopPower.java" />
     <entry file="file://$PROJECT_DIR$/src/patterns/adapter/HouseholdPower.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -689,13 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1003,6 +1046,98 @@
         <state relative-caret-position="285">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/bridge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/adapter/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/ElectronicProductsFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/Radio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/Television.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/IElectronicProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/ElectronicProductFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/bridge/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
