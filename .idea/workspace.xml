@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="099659a2-6494-4491-9127-a799325d0ac2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/interpreter/AddExpression.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/interpreter/Calculator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/interpreter/Expression.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/interpreter/SubExpression.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/interpreter/SymbolExpression.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/interpreter/Test.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/interpreter/VarExpression.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/composite/Component.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/composite/Container.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/composite/Test.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/patterns/composite/UIComponent.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,11 +45,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/patterns/decorator/RequestHandler.java" />
-        <option value="$PROJECT_DIR$/src/patterns/decorator/BlacklistDecorator.java" />
-        <option value="$PROJECT_DIR$/src/patterns/decorator/Test.java" />
-        <option value="$PROJECT_DIR$/src/patterns/adapter/TypeCFemale.java" />
-        <option value="$PROJECT_DIR$/src/patterns/adapter/ElectricCurrent.java" />
         <option value="$PROJECT_DIR$/src/patterns/adapter/Voltage.java" />
         <option value="$PROJECT_DIR$/src/patterns/adapter/HouseholdPower.java" />
         <option value="$PROJECT_DIR$/src/patterns/adapter/Power.java" />
@@ -99,6 +91,11 @@
         <option value="$PROJECT_DIR$/src/patterns/interpreter/SubExpression.java" />
         <option value="$PROJECT_DIR$/src/patterns/interpreter/Calculator.java" />
         <option value="$PROJECT_DIR$/src/patterns/interpreter/Test.java" />
+        <option value="$PROJECT_DIR$/src/patterns/composite/Staff.java" />
+        <option value="$PROJECT_DIR$/src/patterns/composite/Container.java" />
+        <option value="$PROJECT_DIR$/src/patterns/composite/UIComponent.java" />
+        <option value="$PROJECT_DIR$/src/patterns/composite/Test.java" />
+        <option value="$PROJECT_DIR$/src/patterns/composite/Component.java" />
       </list>
     </option>
   </component>
@@ -155,7 +152,7 @@
               <item name="java_patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
-              <item name="interpreter" type="462c0819:PsiDirectoryNode" />
+              <item name="composite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.interpreter">
+  <component name="RunManager" selected="Application.composite">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -282,6 +279,20 @@
     <configuration name="command" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="patterns.command.Test" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java_patterns" />
+      <envs />
+    </configuration>
+    <configuration name="composite" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="patterns.composite.Test" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -563,7 +574,7 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="21">
+    <list size="22">
       <item index="0" class="java.lang.String" itemvalue="Application.command" />
       <item index="1" class="java.lang.String" itemvalue="Application.prototype" />
       <item index="2" class="java.lang.String" itemvalue="Application.mediator" />
@@ -577,14 +588,15 @@
       <item index="10" class="java.lang.String" itemvalue="Application.bridge" />
       <item index="11" class="java.lang.String" itemvalue="Application.flyweight" />
       <item index="12" class="java.lang.String" itemvalue="Application.interpreter" />
-      <item index="13" class="java.lang.String" itemvalue="Application.proxy" />
-      <item index="14" class="java.lang.String" itemvalue="Application.builder" />
-      <item index="15" class="java.lang.String" itemvalue="Application.strategy" />
-      <item index="16" class="java.lang.String" itemvalue="Application.dynamicProxy" />
-      <item index="17" class="java.lang.String" itemvalue="Application.singleton" />
-      <item index="18" class="java.lang.String" itemvalue="Application.factoryMethod" />
-      <item index="19" class="java.lang.String" itemvalue="Application.abtractFactory" />
-      <item index="20" class="java.lang.String" itemvalue="Application.templateMethod" />
+      <item index="13" class="java.lang.String" itemvalue="Application.composite" />
+      <item index="14" class="java.lang.String" itemvalue="Application.proxy" />
+      <item index="15" class="java.lang.String" itemvalue="Application.builder" />
+      <item index="16" class="java.lang.String" itemvalue="Application.strategy" />
+      <item index="17" class="java.lang.String" itemvalue="Application.dynamicProxy" />
+      <item index="18" class="java.lang.String" itemvalue="Application.singleton" />
+      <item index="19" class="java.lang.String" itemvalue="Application.factoryMethod" />
+      <item index="20" class="java.lang.String" itemvalue="Application.abtractFactory" />
+      <item index="21" class="java.lang.String" itemvalue="Application.templateMethod" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -603,7 +615,7 @@
       <workItem from="1512551135866" duration="50452000" />
       <workItem from="1513313355194" duration="8119000" />
       <workItem from="1513590490479" duration="2435000" />
-      <workItem from="1513645114272" duration="11631000" />
+      <workItem from="1513645114272" duration="14995000" />
     </task>
     <task id="LOCAL-00001" summary="no msg">
       <created>1513069251439</created>
@@ -668,11 +680,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513784432470</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="no msg">
+      <created>1513846924468</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1513846924468</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72637000" />
+    <option name="totallyTimeSpent" value="76001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="118" y="23" width="1400" height="926" extended-state="0" />
@@ -685,7 +704,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20049505" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22648515" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947975" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -723,48 +742,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/patterns/facade/Hotel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/command/FunBCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/command/FunACommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/command/Designer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/command/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/command/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/singleton/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="664">
@@ -1021,8 +998,8 @@
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
           <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="false" />
+            <element signature="e#182#183#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1210,6 +1187,72 @@
             <element signature="e#190#202#0" expanded="true" />
             <element signature="e#1178#1179#0" expanded="true" />
             <element signature="e#1233#1234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/command/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/composite/Staff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/composite/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/composite/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="4" />
+          <folding>
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/composite/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#162#175#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/composite/UIComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
           </folding>
         </state>
       </provider>
